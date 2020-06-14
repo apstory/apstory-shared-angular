@@ -37,7 +37,8 @@ export class AppModule { }
 
 Please contact Apstory on apstoryza@gmail.com if you have any questions.
 
-## Microsoft Application Insights JavaScript SDK
+## Microsoft Application Insights JavaScript SDK - Web
 
-https://www.npmjs.com/package/applicationinsights-js
+https://www.npmjs.com/package/@microsoft/applicationinsights-web
+
 
