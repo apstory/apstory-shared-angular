@@ -1,6 +1,6 @@
 {
   "name": "apstory-logger",
-  "version": "9.0.2",
+  "version": "9.0.3",
   "peerDependencies": {
     "@angular/common": "^9.1.11",
     "@angular/core": "^9.1.11"
