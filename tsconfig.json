@@ -14,7 +14,16 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "apstory-logger": [
+        "dist/apstory-logger/apstory-logger",
+        "dist/apstory-logger"
+      ],
+      "@angular/*": [
+        "./node_modules/@angular/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,

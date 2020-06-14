@@ -1,0 +1,32 @@
+{
+  "name": "apstory-logger",
+  "version": "9.0.1",
+  "peerDependencies": {
+    "@angular/common": "^9.1.11",
+    "@angular/core": "^9.1.11"
+  },
+  "dependencies": {
+    "@microsoft/applicationinsights-web": "^2.5.5",
+    "tslib": "^1.10.0"
+  },
+  "keywords": [
+    "angular",
+    "@microsoft/applicationinsights-web",
+    "applicationinsights-web",
+    "application-insights",
+    "angular-applicationinsights",
+    "microsoft application insights javascript sdk",
+    "typescript",
+    "javascript-sdk",
+    "ionic4",
+    "capacitor",
+    "ionic4-capacitor"
+  ],
+  "author": "Anthony Plews",
+  "license": "MIT",
+  "homepage": "http://www.apstory.co.za",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/apstory/apstory-lib-angular"
+  }
+}
