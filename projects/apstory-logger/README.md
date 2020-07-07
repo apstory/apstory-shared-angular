@@ -6,6 +6,10 @@
 
 To install this package run `npm i apstory-logger`.
 
+The major version numbers match the angular version so if you want to install apstory-logger for an angular 9 project run the following:
+
+`npm i apstory-logger@9.0.3`
+
 ## Usage
 
 Add the following to `app.module.ts`
