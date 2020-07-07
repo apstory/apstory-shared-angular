@@ -1,9 +1,9 @@
 {
   "name": "apstory-logger",
-  "version": "9.0.3",
+  "version": "10.0.0",
   "peerDependencies": {
-    "@angular/common": "^9.1.11",
-    "@angular/core": "^9.1.11"
+    "@angular/common": "^10.0.2",
+    "@angular/core": "^10.0.2"
   },
   "dependencies": {
     "@microsoft/applicationinsights-web": "^2.5.5",
