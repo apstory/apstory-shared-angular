@@ -21,10 +21,12 @@ export class ApstoryLoggerService {
   }
 
   logTrace(message: string, properties?: any, severityLevel?: any, measurements?: any) {
+    if (this.loggingLevelConsole === 1) { console.log(message); }
     this.appInsights.trackTrace({ message, severityLevel, properties, measurements });
   }
 
   async logTraceSeverity(message: string, loggerSeverity: LoggerSeverityEnum) {
+    if (this.loggingLevelConsole === 1) { console.log(message); }
     this.logTrace(message, null, loggerSeverity);
   }
 
@@ -43,6 +45,7 @@ export class ApstoryLoggerService {
   }
 
   logException(exception: Error, handledAt?: string, properties?: any, measurements?: any, severityLevel?: any, id?: string) {
+    if (this.loggingLevelConsole === 1) { console.log(exception); }
     this.appInsights.trackException({ exception, properties, measurements, severityLevel, id });
   }
 
