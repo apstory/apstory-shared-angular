@@ -49,4 +49,8 @@ export class ApstoryLoggerService {
     this.appInsights.trackException({ exception, properties, measurements, severityLevel, id });
   }
 
+  setAuthenticatedUserContext(authenticatedUserId: string, accountId?: string, storeInCookie?: boolean) {
+    this.appInsights.setAuthenticatedUserContext(authenticatedUserId, accountId, storeInCookie);
+  }
+
 }
