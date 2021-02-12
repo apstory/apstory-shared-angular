@@ -8,7 +8,7 @@
   "dependencies": {
     "@microsoft/applicationinsights-web": "^2.5.5",
     "tslib": "^2.0.0"
-},
+  },
   "keywords": [
     "angular",
     "@microsoft/applicationinsights-web",
