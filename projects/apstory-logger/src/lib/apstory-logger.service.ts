@@ -40,7 +40,6 @@ export class ApstoryLoggerService {
   ) {
     this.appInsights.trackPageView({ name, uri, measurements, properties, isLoggedIn, pageType });
     this.logEvent(name, 'Initialize page');
-    this.logTrace(name);
   }
 
   async logEvent(name: string, properties?: any, measurements?: any) {
