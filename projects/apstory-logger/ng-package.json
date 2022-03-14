@@ -3,8 +3,5 @@
   "dest": "../../dist/apstory-logger",
   "lib": {
     "entryFile": "src/public-api.ts"
-  },
-  "whitelistedNonPeerDependencies": [
-    "@microsoft/applicationinsights-web"
-  ]
+  }
 }
